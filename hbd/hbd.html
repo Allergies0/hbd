@@ -467,7 +467,7 @@
           let confettiPiece = document.createElement("span");
           confettiPiece.style.left = Math.random() * 100 + "vw";
           confettiPiece.style.animationDuration = (Math.random() * 2 + 2) + "s";
-          confettiPiece.style.backgroundColor = hsl(${Math.random() * 360}, 100%, 70%);
+          confettiPiece.style.backgroundColor = 'hsl(' + Math.random() * 360 + ', 100%, 70%)';
           confettiContainer.appendChild(confettiPiece);
         }
       }
